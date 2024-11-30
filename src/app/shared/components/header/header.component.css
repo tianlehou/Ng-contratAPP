@@ -1,0 +1,21 @@
+.collapse {
+  transition: all 0.3s ease-in-out;
+}
+
+.collapse.show {
+  display: block !important;
+}
+
+.nav-item :hover {
+ font-weight: 500;
+}
+
+.btn-postularme {
+  background-color: #333;
+  border-radius: 12px;
+}
+
+.btn-postularme :hover {
+  color: white;
+  font-weight: 400;
+}

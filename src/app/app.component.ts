@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+// import { RouterOutlet } from '@angular/router';
 
 import { HeaderComponent } from './shared/components/header/header.component';
 import { HeroComponent } from './shared/components/hero/hero.component';
@@ -12,6 +12,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
   selector: 'app-root',
   standalone: true,
   imports: [
+    // RouterOutlet,
     HeaderComponent,
     HeroComponent,
     FeaturesComponent,
@@ -19,8 +20,8 @@ import { FooterComponent } from './shared/components/footer/footer.component';
     TestimonialsComponent,
     FooterComponent,
   ],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  templateUrl: './app.component.html', // Archivo HTML del componente
+  styleUrls: ['./app.component.css'], // Corrección aquí
 })
 export class AppComponent {
   title = 'contratAPP';
