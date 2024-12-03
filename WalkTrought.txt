@@ -1,0 +1,8 @@
+2024/12/02 - El sidebar cierra: (a) con boton flecha. (b) tocando la pantalla.
+        - Configuracion del boton de Registro, para abrir modal de registro.
+        - FirebaseConfig conectado exitosamente.
+        - Registro de usuario "Persona" con "Google", conectado exitosamente.
+        - Registro de usuario "Persona" con "Correo & Contraseña", conectado exitosamente.
+2024/12/01 - Integracion de un menú sidebar.
+2024/11/30 - Creacion del proyecto, vincular rutas de las páginas
+        - Creacion de pantallas: Inicio, Suscripciones.

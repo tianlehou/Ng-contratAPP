@@ -5,3 +5,12 @@ body {
     padding: 0;
   }
   
+.display-flex-center {
+  display: flex;
+  justify-content: center; /* Alinea horizontalmente el contenido */
+  align-items: center;
+}
+
+.red-border {
+  border: red 1px solid;
+}

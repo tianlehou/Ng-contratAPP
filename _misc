@@ -1,1 +1,17 @@
 
+src/
+├── app/
+│   ├── auth/                   # Módulo para autenticación
+│   │   ├── login/              # Componente para iniciar sesión
+│   │   ├── register/           # Componente para registrar nuevos usuarios
+│   │   ├── auth.service.ts     # Servicio para manejar la autenticación
+│   │   └── auth.guard.ts       # Guard para proteger rutas
+│   ├── subscriptions/          # Módulo para gestionar suscripciones
+│   │   ├── plans/              # Componente para mostrar los planes
+│   │   ├── checkout/           # Componente para el pago
+│   │   └── subscriptions.service.ts # Servicio para manejar datos de suscripción
+│   ├── user-dashboard/         # Panel para usuarios
+│   │   ├── profile/            # Componente para ver/editar perfil
+│   │   └── subscription-info/  # Componente para ver información del plan
+│   ├── app-routing.module.ts   # Configuración de rutas
+│   └── app.module.ts           # Módulo raíz
